@@ -2,7 +2,7 @@
 
 Chooser option on interest forward rates may also be called chooser cap and chooser floor, respectively. A cap (floor) is a portfolio of caplets (floorlets). For a given number k, a chooser cap (floor) is an option which entitles the option owner the right to exercise at most k caplets (floorlets) out of the total n caplets (floorlets). 
 
-As European and Bermudan options are standard products, a so-called k-out-of-n (or simply (k/n)-) Bermudan option is also a standard product in the derivative market. A chooser option is an example of (k/n)-Bermudan option. 
+As European and Bermudan options are standard products, a so-called k-out-of-n (or simply (k/n)-) Bermudan option is also a standard product in the derivative market. A chooser option is an example of (k/n)-Bermudan option. Bermudan option is a type of callable exotics (see https://finpricing.com/lib/EqCallable.html)
 
 A chooser cap (floor) is different from the traditional European/Bermudan option that the owner of the chooser option has multiple chances to exercise. The rigorous definition of chooser option is given in the appendix section of this report. From the definition of the chooser option, a lower bound of the value of the chooser cap (floor) is the sum of first k maximal values of (European) caplets (floorlets). To get a good upper bound is not trivial.
 
@@ -20,10 +20,4 @@ Particularly, if 1 = k < n, the derivative reduces to a conventional Bermudan op
 
 Without the loss of generality, let t = 0 be the valuation time with known value of X0. Suppose that a tree of the underlying X, denoted by X , has been built which is rooted at (0,X0) and is ended at time of T.
 
-References:
 
-https://finpricing.com/lib/EqSpread.html
-
-https://zenodo.org/record/6561499/files/chooserCap.pdf
-
-https://zenodo.org/record/6561499#.YpDwjKgpDq4
